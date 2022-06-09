@@ -4,6 +4,10 @@
 import pickle
 from classes.Airport import Airport
 
+"""
+    The variable "data" is a list of Airports
+"""
+
 def write_data( data, file_name ):
     """
     TODO
@@ -23,3 +27,10 @@ def read_data( file_name ):
             return data
     except:
         return None
+
+def show_data( data ):
+  """
+  TODO
+  """
+  for d in data:
+    d.print_info()
