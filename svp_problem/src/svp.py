@@ -29,8 +29,8 @@ def read_data( file_name ):
         return None
 
 def show_data( data ):
-  """
-  TODO
-  """
-  for d in data:
-    d.print_info()
+    """
+    TODO
+    """
+    for d in data:
+        d.print_info()
