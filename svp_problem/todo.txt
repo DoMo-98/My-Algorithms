@@ -1,0 +1,9 @@
+Program Flux:
+(change the flux of the program, its better if the airports_list is a dictionary with the airport name as key)
+    - first of all visualized in a paper the flux of the program
+    - change the Airport class
+
+Options (./app.py):
+    - add show data option
+    - add option to update dest_map.obj
+    - add option to show the destination route
