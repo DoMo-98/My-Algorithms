@@ -3,9 +3,10 @@
 
 import pickle
 from classes.Airport import Airport
+# from svp_problem.classes.Airport import Airport
 
 """
-    The variable "data" is a list of Airports
+    The variable "data" is a dictionary of Airports
 """
 
 def write_data( data, file_name ):
@@ -32,5 +33,14 @@ def show_data( data ):
     """
     TODO
     """
-    for d in data:
+    for d in data.values():
         d.print_info()
+
+def show_total_route( data ):
+    """
+    TODO
+    """
+    total_route = 0
+    for d in data.values():
+        total_route += d.get_total_route()
+    print( 'Total route: ' + str( total_route ) )

@@ -1,9 +1,15 @@
 Program Flux:
 (change the flux of the program, its better if the airports_list is a dictionary with the airport name as key)
-    - first of all visualized in a paper the flux of the program
-    - change the Airport class
+    - first of all visualized in a paper the flux of the program @done
+    - change the Airport class @done
+    - add function to sort the airports dictionary
+    - 
 
 Options (./app.py):
-    - add show data option
-    - add option to update dest_map.obj
-    - add option to show the destination route
+    - add show data option @done
+    - add option to show the destination route @done
+    - add option to add a new destination from specific airport
+    - add option to delete a destination from specific airport
+    - add option to remake dest_map.obj
+    - add option to delete dest_map.obj
+    - 
